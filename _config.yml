@@ -64,5 +64,3 @@ address:
 markdown: kramdown
 permalink: pretty
 
-gems:
-  - jekyll-seo-tag
