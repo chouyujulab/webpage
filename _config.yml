@@ -9,7 +9,7 @@ description: "NTHU Brother & Sister House, Lord's recovery in NTHU"
 
 # Team names, titles and social links
 people:
-- name: Kay Garland
+- name: Daay Garland
   pic: 1
   position: Lead Designer
   social:
@@ -40,6 +40,17 @@ people:
     - title: facebook
       url: #
     - title: google-plus
+      url: #
+
+- name: Daniel Wu
+  pic: 4
+  position: 動機所碩2.5
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: https://www.facebook.com/danny.wu.980
+    - title: stack-overflow
       url: #
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)

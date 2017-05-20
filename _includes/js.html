@@ -16,8 +16,20 @@
     <!-- Custom Theme JavaScript -->
     <script src="{{ "/js/agency.js" | prepend: site.baseurl }}"></script>
 
-    <!--<script src="{{ "/js/jquery.mousewheel.min.js" | prepend: site.baseurl }}"></script>
-    <script src="{{ "/js/jquery.simplr.smoothscroll.js" | prepend: site.baseurl }}"></script-->
 
+    <!--script src="{{ "/js/jquery.mousewheel.min.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/js/jquery.simplr.smoothscroll.js" | prepend: site.baseurl }}"></script>
 
+    <script>
+        $(function () {
+          $.srSmoothscroll({
+            // defaults
+            step: 55,
+            speed: 400,
+            ease: 'swing',
+            target: $('body'),
+            container: $(window)
+          })
+        })
+    </script-->
 
