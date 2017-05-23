@@ -4,12 +4,16 @@ subtitle: Beef soup
 layout: default
 modal-id: 3
 date: 2014-07-16
-img: beef.jpg
 thumbnail: beef-m.jpg
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
 description: Beef soup(I feel left outT_T)
+carousel:
+  - image: beef.jpg
+  - image: 198922.jpg
+  - image: 198923.jpg
+
 
 ---

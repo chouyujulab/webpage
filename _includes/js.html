@@ -1,6 +1,5 @@
- <!-- jQuery Version 1.11.0 -->
+    <!-- jQuery Version 1.11.0 -->
     <script src="{{ "/js/jquery-1.11.0.js" | prepend: site.baseurl }}"></script>
-
     <!-- Bootstrap Core JavaScript -->
     <script src="{{ "/js/bootstrap.min.js" | prepend: site.baseurl }}"></script>
 
@@ -17,6 +16,23 @@
     <script src="{{ "/js/agency.js" | prepend: site.baseurl }}"></script>
 
 
+    <!-- Flexslider Library  -->
+
+    <script src="{{ "/js/jquery.flexslider.min.js" | prepend: site.baseurl }}"></script>
+
+    <script type="text/javascript" charset="utf-8">
+    $(window).load(function() {
+    $('.flexslider').flexslider({
+        animation: "fade",
+        slideshowSpeed: 5000,
+        animationSpeed: 600,
+        touch: true
+        });
+    });
+    </script>
+
+    <!-- Google CDN Hosted jQuery  -->
+    <!--script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script-->
     <!--script src="{{ "/js/jquery.mousewheel.min.js" | prepend: site.baseurl }}"></script>
     <script src="{{ "/js/jquery.simplr.smoothscroll.js" | prepend: site.baseurl }}"></script>
 

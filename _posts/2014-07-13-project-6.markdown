@@ -4,12 +4,14 @@ subtitle: Preach gospel
 layout: default
 modal-id: 6
 date: 2014-07-15
-img: pp.jpg
+
 thumbnail: pp.jpg
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Gospel
 description: Preach gospel for Lord in campus
+video: https://www.youtube.com/embed/q8USNwKjmdU
 
 ---
+img: pp.jpg
