@@ -893,12 +893,14 @@ section#quote .quo {
 
 }
 
+var widthquo = document.getElementById('quo').offsetheight;
+
  .wb {
     background: hsla(0,0%,100%,.3);
     background-size: cover;
     overflow: hidden;
     position: absolute;
-    height: 450px;
+    height: var(widthquo);
     top: -50px;
     left: -50px;
     right: -50px;
@@ -912,7 +914,7 @@ section#quote .quo {
   overflow: hidden;
   filter: blur(13px);
   position: absolute;
-  height: 450px;
+  height: var(widthquo);
   top: -50px;
   left: -50px;
   right: -50px;
@@ -946,7 +948,7 @@ cite {
 
 @import url(http://fonts.googleapis.com/css?family=Lora);
 
-@media(max-width:768px) {
+@media(max-width:480px) {
 
     blockquote {
         font-style: italic;
