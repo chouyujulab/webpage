@@ -269,7 +269,7 @@ header {
     text-align: center;
     color: #fff;
     background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
-    background-attachment: fixed;
+
     /*background-image: url('{{ site.baseurl }}/img/header-bg.jpg');*/
     background-position: center center;
     background-repeat: none;
