@@ -892,6 +892,11 @@ section#quote {
   background: url('{{ site.baseurl }}/img/q2.jpg'); 0 / cover fixed;
   background-size: cover;
   background-attachment: fixed;
+  background-position: center center;
+  background-repeat: none;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 
 
