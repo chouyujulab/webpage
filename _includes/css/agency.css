@@ -278,11 +278,11 @@ header {
     -o-background-size: cover;
 }
 
-@media(min-width:768px) {
+@media(min-width:996px) {
 
     header {
 
-    background-attachment: scroll;
+    background-attachment: fixed;
 
     }
 
