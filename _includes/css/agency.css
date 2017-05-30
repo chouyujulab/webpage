@@ -931,7 +931,7 @@ var widthquo = document.getElementById('quo').offsetheight;
   right: -50px;
   bottom: -50px;
   z-index: -2;
-  background-attachment: fixed;
+
 
 }
 
@@ -981,5 +981,8 @@ cite {
 
     section#quote {
       background-attachment: fixed;
+    }
+    .blur{
+        background-attachment: fixed;
     }
 }
