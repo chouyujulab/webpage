@@ -894,9 +894,7 @@ section#quote {
   background-attachment: fixed;
   background-position: center center;
   background-repeat: none;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+
 }
 
 
