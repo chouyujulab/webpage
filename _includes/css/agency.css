@@ -279,7 +279,7 @@ header {
     -o-background-size: cover;
 }
 
-@media(max-width:768px) {
+@media(max-width:996px) {
 
     header {
     text-align: center;
