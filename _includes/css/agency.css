@@ -970,7 +970,7 @@ cite {
 
 @import url(http://fonts.googleapis.com/css?family=Lora);
 
-@media(max-width:480px) {
+@media(max-width:768px) {
 
     blockquote {
         font-style: italic;
