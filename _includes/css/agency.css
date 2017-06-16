@@ -268,7 +268,7 @@ fieldset[disabled] .btn-xl.active {
 header {
     text-align: center;
     color: #fff;
-    background-image: url('{{ site.baseurl }}/img/mee.jpg');
+    background-image: url('{{ site.baseurl }}/img/all.jpg');
     /*background-image: url('{{ site.baseurl }}/img/header-bg.jpg');*/
     background-position: center center;
     background-repeat: none;
@@ -899,14 +899,15 @@ section#quote .quo {
   border-radius: 10px;
   box-shadow: 5px 3px 30px black;
   overflow: hidden;
-  z-index: 0;
-
-
+    z-index: 1;
 }
 
-var widthquo = document.getElementById('quo').offsetheight;
+var widthquo = document.getElementById('quo').offsetheight;{}
 
- .wb {
+
+
+
+.wb {
     background: hsla(0,0%,100%,.3);
     background-size: cover;
     overflow: hidden;
@@ -919,11 +920,12 @@ var widthquo = document.getElementById('quo').offsetheight;
     z-index: -1;
 }
 
+
 .blur {
   background: url('{{ site.baseurl }}/img/q2.jpg'); no-repeat center center fixed;
   background-size: cover;
   overflow: hidden;
-  filter: blur(13px);
+  filter: blur(20px);
   position: absolute;
   height: var(widthquo);
   top: -50px;
@@ -931,16 +933,14 @@ var widthquo = document.getElementById('quo').offsetheight;
   right: -50px;
   bottom: -50px;
   z-index: -2;
+    }
 
 
-}
 
 blockquote {
     font-style: italic;
     font-size: 30px;
     border:none;
-    z-index: 0;
-
 
 }
 
@@ -959,13 +959,13 @@ cite {
 
 @import url(http://fonts.googleapis.com/css?family=Lora);
 
-@media(max-width:768px) {
+@media(max-width:787px) {
 
     blockquote {
         font-style: italic;
-        font-size: 10px;
+        font-size: 15px;
         border:none;
-        z-index: 0;
+
     }
 
     cite {
