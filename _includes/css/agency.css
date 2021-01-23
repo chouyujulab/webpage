@@ -6,7 +6,7 @@
 
 body {
     overflow-x: hidden;
-    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Roboto Slab","Helvetica Neue",Helvetica,'Microsoft JhengHei',Arial,sans-serif;
     color: #{{ site.data.template.color.secondary-dark }};
 }
 
@@ -20,6 +20,7 @@ body {
 
 p {
     font-size: 14px;
+    font-family: 'Microsoft JhengHei';
     line-height: 1.75;
 }
 
